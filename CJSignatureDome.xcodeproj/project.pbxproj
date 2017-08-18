@@ -15,6 +15,8 @@
 		DAD0073D1F4587B200B34E2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD0073B1F4587B200B34E2C /* LaunchScreen.storyboard */; };
 		DAD007481F4587B200B34E2C /* CJSignatureDomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD007471F4587B200B34E2C /* CJSignatureDomeTests.m */; };
 		DAD007531F4587B200B34E2C /* CJSignatureDomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD007521F4587B200B34E2C /* CJSignatureDomeUITests.m */; };
+		DAD007621F4587C400B34E2C /* CJSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD007611F4587C400B34E2C /* CJSignatureView.m */; };
+		DAD007651F4595F400B34E2C /* CJDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD007641F4595F400B34E2C /* CJDrawViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		DAD0074E1F4587B200B34E2C /* CJSignatureDomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJSignatureDomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD007521F4587B200B34E2C /* CJSignatureDomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJSignatureDomeUITests.m; sourceTree = "<group>"; };
 		DAD007541F4587B200B34E2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD007601F4587C400B34E2C /* CJSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSignatureView.h; sourceTree = "<group>"; };
+		DAD007611F4587C400B34E2C /* CJSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSignatureView.m; sourceTree = "<group>"; };
+		DAD007631F4595F400B34E2C /* CJDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJDrawViewController.h; sourceTree = "<group>"; };
+		DAD007641F4595F400B34E2C /* CJDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJDrawViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				DAD007311F4587B200B34E2C /* AppDelegate.m */,
 				DAD007331F4587B200B34E2C /* ViewController.h */,
 				DAD007341F4587B200B34E2C /* ViewController.m */,
+				DAD007631F4595F400B34E2C /* CJDrawViewController.h */,
+				DAD007641F4595F400B34E2C /* CJDrawViewController.m */,
+				DAD007601F4587C400B34E2C /* CJSignatureView.h */,
+				DAD007611F4587C400B34E2C /* CJSignatureView.m */,
 				DAD007361F4587B200B34E2C /* Main.storyboard */,
 				DAD007391F4587B200B34E2C /* Assets.xcassets */,
 				DAD0073B1F4587B200B34E2C /* LaunchScreen.storyboard */,
@@ -273,7 +283,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAD007351F4587B200B34E2C /* ViewController.m in Sources */,
+				DAD007651F4595F400B34E2C /* CJDrawViewController.m in Sources */,
 				DAD007321F4587B200B34E2C /* AppDelegate.m in Sources */,
+				DAD007621F4587C400B34E2C /* CJSignatureView.m in Sources */,
 				DAD0072F1F4587B200B34E2C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
