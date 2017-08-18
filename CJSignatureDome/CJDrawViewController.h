@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @protocol CJDrawViewControllerDelegate <NSObject>
-
+// 返回签名图片
 - (void)returnImage:(UIImage *)signImage;
 
 @end

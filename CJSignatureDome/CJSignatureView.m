@@ -80,6 +80,7 @@ CGPoint midpoint(CGPoint p0, CGPoint p1) {
     if (!_imageScale) {
         return;
     }
+    // 这里控制范围，范围可以自己定
     if (_imageScale < 0.1) {
         _imageScale = 0.1;
     }

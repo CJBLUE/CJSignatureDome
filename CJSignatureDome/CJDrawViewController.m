@@ -23,7 +23,7 @@
     [self.view addSubview:self.signView];
     [self createView];
 }
-
+#pragma mark 初始化
 - (CJSignatureView *)signView
 {
     if (!_signView) {
@@ -35,7 +35,7 @@
     }
     return _signView;
 }
-
+#pragma mark 创建按钮
 - (void)createView
 {
     NSArray *titleArr = @[@"返回", @"重置", @"保存"];
@@ -50,7 +50,7 @@
         btn.tag = 100+i;
     }
 }
-
+#pragma mark 按钮点击方法
 - (void)btnAction:(UIButton *)btn
 {
     switch (btn.tag) {
